@@ -160,4 +160,11 @@ p {
   padding: 2em;
   border-radius: 2em;
   background-color: black;
+  cursor: pointer;
+}
+
+.foodListContainer:hover {
+  color: black;
+  background-color: white;
+  border: solid grey;
 }
