@@ -132,6 +132,7 @@ p {
   gap: 2rem;
 }
 #songContainer {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -153,18 +154,10 @@ p {
   margin-bottom: 0;
 }
 
-
 .foodListContainer {
   margin-top: 2em;
   border: solid grey;
   padding: 2em;
   border-radius: 2em;
   background-color: black;
-  cursor: pointer;
-}
-
-.foodListContainer:hover {
-  color: black;
-  background-color: white;
-  border: solid grey;
 }
