@@ -8,7 +8,7 @@ const foodProperties3 = new Foods("Sushi", "Japan");
 const foodProperties4 = new Foods("Ceviche", "Peru");
 const foodProperties5 = new Foods("Bratwurst", "Germnay");
 
-const foodList = [foodProperties, foodProperties2, foodProperties3];
+const foodList = [foodProperties, foodProperties2, foodProperties3, foodProperties4, foodProperties5];
 
 console.log(foodProperties);
 
