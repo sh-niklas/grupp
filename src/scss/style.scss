@@ -137,3 +137,9 @@ h1, h3, p {
   border-radius: 2em;
   background-color: black;
 }
+
+.foodListContainer:hover {
+  color: black;
+  background-color: white;
+  border: solid grey;
+}
