@@ -122,10 +122,33 @@ img {
   width: 100px;
   height: auto;
 }
-h1, h3, p {
+h1,
+h3,
+p {
   margin: 0;
 }
 .bigContainer {
-  display: flex;  
+  display: flex;
   gap: 2rem;
+}
+#songContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#songCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eee;
+  color: black;
+  border-radius: 10px;
+}
+
+.songTitle {
+  font-size: 2rem;
+  font-style: oblique;
+  margin-bottom: 0;
 }
