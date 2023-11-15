@@ -66,6 +66,7 @@ for (let i = 0; i < foodList.length; i++) {
 
   foodItems.innerHTML = foodList[i].foodOrigin + ": " + foodList[i].foodName;
 }
+
 import {Animal} from "./Animal";
 
 const elephant = new Animal(
