@@ -36,16 +36,23 @@ createSongHtml();
 import {Foods} from "./foods";
 
 const foodProperties = new Foods("Burritos", "Mexico");
-const foodList = [foodProperties];
+const foodProperties2 = new Foods("Meatballs", "Sweden");
+const foodProperties3 = new Foods("Sushi", "Japan");
+const foodList = [foodProperties, foodProperties2, foodProperties3];
 
 console.log(foodProperties);
 
+const foodListContainer = document.createElement("div");
+document.body.appendChild(foodListContainer);
+foodListContainer.className = "foodListContainer";
+
 for (let i = 0; i < foodList.length; i++) {
-  const foodListContainer = document.createElement("div");
+  
+
   const list = document.createElement("ul");
   const foodItems = document.createElement("li");
 
-  document.body.appendChild(foodListContainer);
+  
   foodListContainer.appendChild(list);
   list.appendChild(foodItems);
 
