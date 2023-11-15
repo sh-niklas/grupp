@@ -8,6 +8,8 @@ const foodList = [foodProperties];
 console.log(foodProperties);
 
 
+
+
 for (let i = 0; i < foodList.length; i++) {
 const foodListContainer = document.createElement("div");
 const list = document.createElement("ul");
