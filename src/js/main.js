@@ -16,6 +16,11 @@ const foodListContainer = document.createElement("div");
 document.body.appendChild(foodListContainer);
 foodListContainer.className = "foodListContainer";
 
+const foodListTitle = document.createElement("h2");
+foodListContainer.appendChild(foodListTitle);
+foodListTitle.innerHTML = "Fooooood!";
+
+
 for (let i = 0; i < foodList.length; i++) {
 
 
